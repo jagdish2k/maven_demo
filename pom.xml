@@ -18,16 +18,24 @@
     </organization>
 
     <properties>
-        <jdk.version>17</jdk.version>
-        <spring.version>5.3.34</spring.version>
-        <junit.version>4.11</junit.version>
-        <log4j.version>1.2.17</log4j.version>
-        <sonar.host.url>http://52.66.107.12:9000</sonar.host.url>
-        <sonar.login>squ_27f07f136b56b353d31b5df29ddfb180d47397bb</sonar.login>
+    <jdk.version>17</jdk.version>
+    <spring.version>5.3.34</spring.version>
+    <junit.version>4.11</junit.version>
+    <log4j.version>1.2.17</log4j.version>
 
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- SonarQube Configuration -->
+    <sonar.projectKey>freestyle-devops-demo</sonar.projectKey>
+    <sonar.host.url>http://52.66.107.12:9000</sonar.host.url>
+    <sonar.login>squ_27f07f136b56b353d31b5df29ddfb180d47397bb</sonar.login>
+
+    <!-- Nexus Deployment Credentials -->
+    <nexus.username>admin</nexus.username>
+    <nexus.password>Admin4321@</nexus.password>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
 
     <dependencies>
         <dependency>
